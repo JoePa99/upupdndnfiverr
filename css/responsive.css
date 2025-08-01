@@ -1,0 +1,582 @@
+/* ------ Medium and large devices (laptops and dekstops , 992px and up) -----*/
+@media (min-width: 992px) {
+  html {
+    font-size: 0.694vw;
+  }
+
+  .container {
+    max-width: 133.5rem;
+  }
+
+  .logo_wrap {
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .logo_wrap img {
+    width: 60rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .logo_wrap .logo_left {
+    transform: translateY(calc(-50% - 7.8rem)) translateX(-50%);
+  }
+
+  .logo_wrap .logo_right {
+    transform: translateY(calc(50% - 7.8rem)) translateX(-50%);
+  }
+
+  /* animates */
+  .animate1 .logo_wrap {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+
+  .animate2 .logo_wrap .logo_left {
+    transform: translateY(calc(-50% - 7.8rem)) translateX(calc(-50% - 32rem));
+  }
+
+  .animate2 .logo_wrap .logo_right {
+    transform: translateY(calc(50% - 7.8rem)) translateX(calc(50% - 28rem));
+  }
+
+  .animate3 .logo_wrap .logo_right {
+    transform: translateY(calc(-50% - 3.5rem)) translateX(calc(50% - 28rem));
+  }
+
+  .animate3 .logo_wrap .logo_left {
+    transform: translateY(calc(-50%)) translateX(calc(-50% - 32rem));
+  }
+
+  .animate4 .logo_wrap {
+    top: 13.6rem;
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.187) !important;
+  }
+}
+
+/* ------ Medium devices (tablets, 991px and down) -----*/
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  br {
+    display: none;
+  }
+
+  .title_127 br {
+    display: block;
+  }
+
+  /* ================= hero_area ================= */
+  .title_127 {
+    font-size: 6rem;
+  }
+
+  .hero_area .container-fluid {
+    padding: 0 2rem;
+  }
+
+  .hero_content .darkbg_text {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+  }
+
+  /* ================= section_one ================= */
+  .content h2 {
+    max-width: 100%;
+  }
+
+  .section_one .content_box {
+    margin-left: 0;
+    margin-top: 4rem;
+  }
+
+  .content_box video {
+    height: 40rem;
+    width: 100%;
+  }
+
+  .section_one .content_box {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .section_one .content_box h3 {
+    padding: 3.5rem 0 6rem;
+  }
+
+  .section_top.pb_60 {
+    padding-bottom: 4.5rem;
+  }
+
+  /* ============== flowers_area ================ */
+  .flowers_area {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .flowers_area .content {
+    max-width: 100%;
+  }
+
+  .flowers_area .content h3 {
+    padding-bottom: 4rem;
+  }
+
+  .flowers_area .row {
+    padding: 5rem 0 5rem;
+  }
+
+  .bullet_points {
+    margin-left: 0;
+    margin-top: 6rem;
+  }
+
+  .bullet_points li {
+    padding-bottom: 5rem;
+    padding-top: 0;
+  }
+
+  .bullet_point h4 {
+    padding-bottom: 2rem;
+  }
+
+  .title_48 {
+    font-size: 3.8rem;
+  }
+
+  /* ============== about_area ================ */
+  .about_area {
+    padding: 4rem 0;
+  }
+
+  .about_box h2 {
+    padding: 3rem 0 3rem;
+  }
+
+  .about_box > p {
+    padding-bottom: 4rem;
+  }
+
+  .about_box.v2 {
+    padding-top: 8rem;
+  }
+
+  .about_box.v2 ul {
+    padding-bottom: 5rem;
+  }
+
+  .about_box.v2 ul li {
+    padding-bottom: 2rem;
+  }
+
+  .about_content {
+    padding: 0;
+  }
+
+  /* ============== roadmap_area =================== */
+  .roadmap_item {
+    width: 37.5rem;
+  }
+
+  .roadmap_img1 {
+    width: 29rem;
+  }
+
+  .owl-dots {
+    margin: 6rem 0 4rem;
+  }
+
+  .roadmap_img_wrap {
+    height: 5.5rem;
+  }
+
+  .roadmap_item h4 {
+    padding-bottom: 3rem;
+  }
+
+  .roadmap_item {
+    margin-right: 4.5rem;
+  }
+
+  .title_46 {
+    font-size: 3.8rem;
+  }
+
+  .roadmap_img3 {
+    width: 12rem;
+  }
+
+  .roadmap_img2 {
+    width: 22rem;
+    margin: 0;
+  }
+
+  .section_two .content_box {
+    max-width: 100%;
+  }
+
+  .hover_img img {
+    width: 100%;
+  }
+
+  .hover_img {
+    width: 100%;
+  }
+
+  .section_two .content_box p {
+    padding-top: 3rem;
+  }
+
+  .section_two .row {
+    --bs-gutter-y: 3rem;
+  }
+
+  .section_two .content {
+    width: 80%;
+  }
+
+  .content {
+    gap: 2rem;
+  }
+
+  /* ====================== contact_area ==================== */
+  .contact_area .section_top {
+    margin-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  .contact_area .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 3.5rem;
+  }
+
+  .contact_area .content {
+    width: 100%;
+  }
+
+  .contact_form {
+    max-width: 100%;
+  }
+
+  /* ====================== footer_section ==================== */
+  .footer_section .container {
+    padding: 10rem 0 14rem;
+  }
+
+  .footer_boxes {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 9rem 5rem;
+    padding: 10rem 0;
+  }
+
+  /* =================== logo_area ==================== */
+  .logo_wrap {
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .logo_wrap img {
+    width: 35rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .logo_wrap .logo_left {
+    transform: translateY(calc(-50% - 3.8rem)) translateX(-50%);
+  }
+
+  .logo_wrap .logo_right {
+    transform: translateY(calc(50% - 3.8rem)) translateX(-50%);
+  }
+
+  /* animates */
+  .animate1 .logo_wrap {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+
+  .animate2 .logo_wrap .logo_left {
+    transform: translateY(calc(-50% - 3.8rem)) translateX(calc(-50% - 19.5rem));
+  }
+
+  .animate2 .logo_wrap .logo_right {
+    transform: translateY(calc(50% - 3.8rem)) translateX(calc(50% - 15.5rem));
+  }
+
+  .animate3 .logo_wrap .logo_right {
+    transform: translateY(calc(-50% - 2rem)) translateX(calc(50% - 15.5rem));
+  }
+
+  .animate3 .logo_wrap .logo_left {
+    transform: translateY(calc(-50%)) translateX(calc(-50% - 19.5rem));
+  }
+
+  .animate4 .logo_wrap {
+    height: auto;
+    top: 13.6rem;
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.32) !important;
+  }
+
+  /* ================ Shapes =============== */
+  .hero_Bg_wrap {
+    bottom: -5rem;
+  }
+  .about_bg_wrap {
+    top: -10rem;
+  }
+}
+
+/*----- xs devices (landscape phones, 767px and down) -----*/
+@media (max-width: 767px) {
+  html {
+    font-size: 45%;
+  }
+
+  /* ============== header_top ============= */
+  .header_top a {
+    font-size: 1rem;
+  }
+
+  .header_top a img {
+    width: 1.4rem;
+  }
+
+  .header_top {
+    height: 3rem;
+  }
+
+  .nav_menu {
+    gap: 2rem;
+    height: 6rem;
+    padding: 0 2.4rem;
+  }
+
+  .nav_menu a {
+    font-size: 1.8rem;
+  }
+
+  .logo_link {
+    margin-bottom: 2rem;
+  }
+
+  .logo_link img {
+    width: 18rem;
+  }
+
+  .header_main {
+    top: 5rem;
+  }
+
+  /* ============= hero area =============== */
+  .hero_area {
+    padding-top: 19rem;
+  }
+
+  .title_127 {
+    font-size: 4.2rem;
+  }
+
+  .hero_content .darkbg_text {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    font-size: 1.8rem;
+    line-height: 1.25;
+  }
+
+  .title_46 {
+    font-size: 3rem;
+  }
+
+  .title_48 {
+    font-size: 3.2rem;
+  }
+
+  .title_icon.mt-4.icon_28 {
+    margin-top: 1rem !important;
+  }
+
+  .icon_28 {
+    width: 2.5rem;
+  }
+
+  .content_box video {
+    height: 30rem;
+  }
+
+  .section_one .content_box h3 {
+    padding: 2.5rem 0 5rem;
+  }
+
+  .section_one .content_box {
+    margin-top: 3rem;
+  }
+
+  /* ================ flowers_area =============== */
+  .flowers_area {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .flowers_area .row {
+    padding: 3rem 0 3rem;
+  }
+
+  .flowers_area .content h3 {
+    padding-bottom: 3rem;
+  }
+
+  .bullet_points li {
+    padding-bottom: 2rem;
+  }
+
+  .bullet_point h4 {
+    padding-bottom: 1rem;
+    font-size: 2.8rem;
+  }
+
+  /* ================ About area =============== */
+  .about_area {
+    padding: 2rem 0;
+  }
+  .about_box.v2 {
+    padding-top: 6rem;
+  }
+
+  /* ================ roadmap_area =============== */
+  .roadmap_area {
+    padding: 7rem 0 0;
+    margin-bottom: 2.5rem;
+  }
+
+  .roadmap_area .section_top {
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .book_icon {
+    width: 5rem;
+  }
+
+  .owl-dots {
+    margin: 4rem 0 4rem;
+    gap: 1rem;
+  }
+
+  /* ================ section_two =============== */
+  .section_two .content {
+    width: 100%;
+  }
+  .section_two {
+    padding: 3rem 0 4rem 0;
+  }
+
+  /* ================ contact_area =============== */
+  .section_two {
+    padding: 3rem 0 4rem 0;
+  }
+
+  .contact_area .section_top {
+    margin-bottom: 3.5rem;
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .form_control.form_textarea {
+    height: 22rem;
+    padding-right: 5rem;
+  }
+
+  .contact_area .row {
+    padding-bottom: 8rem;
+  }
+
+  /* ================ footer_section =============== */
+  .footer_section .container {
+    padding: 8rem 2rem 8rem;
+  }
+
+  .footer_boxes {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 5rem 3rem;
+  }
+
+  .contact_form form {
+    display: grid;
+    gap: 2rem;
+  }
+
+  /* =================== logo_area ==================== */
+  .logo_wrap img {
+    width: 19rem;
+  }
+
+  .logo_wrap .logo_left {
+    transform: translateY(calc(-50% - 3.8rem)) translateX(-50%);
+  }
+
+  .logo_wrap .logo_right {
+    transform: translateY(calc(50% - 3.8rem)) translateX(-50%);
+  }
+
+  .animate2 .logo_wrap .logo_right {
+    transform: translateY(calc(50% - 3.8rem)) translateX(calc(50% - 8.5rem));
+  }
+
+  .animate2 .logo_wrap .logo_left {
+    transform: translateY(calc(-50% - 3.8rem)) translateX(calc(-50% - 10.5rem));
+  }
+
+  .animate3 .logo_wrap .logo_left {
+    transform: translateY(calc(-50%)) translateX(calc(-50% - 10.5rem));
+  }
+
+  .animate3 .logo_wrap .logo_right {
+    transform: translateY(calc(-50% - 1.1rem)) translateX(calc(50% - 8.5rem));
+  }
+
+  .animate4 .logo_wrap {
+    top: 6.75rem;
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.45) !important;
+  }
+
+  /* =================== contact_area =============== */
+  .contact_area {
+    padding: 3.5rem 0 0;
+  }
+}
+
+/*----- xs devices (landscape phones, 575px and down) -----*/
+@media (max-width: 575px) {
+  html {
+    font-size: 2.32vw;
+  }
+
+  .container {
+    padding: 0 2rem;
+    max-width: 100%;
+  }
+
+  /* ================ Footer area ================ */
+  .footer_boxes {
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 5rem 3rem;
+    padding: 8rem 0;
+  }
+
+  .footer_box ul {
+    gap: 2rem;
+  }
+}
